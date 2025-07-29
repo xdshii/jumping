@@ -1,0 +1,8 @@
+{
+  "total_images": 30,
+  "valid_images": 30,
+  "corrupt_images": 0,
+  "size_issues": 0,
+  "face_detection_success": 30,
+  "issues": []
+}

@@ -1,0 +1,4 @@
+2025-07-29 01:09:24,576 - optimization_test_logging_20250729_010924 - INFO - 优化日志记录器初始化: test_logging_20250729_010924
+2025-07-29 01:09:24,577 - optimization_test_logging_20250729_010924 - INFO - 配置已记录: {'learning_rate': 0.01, 'batch_size': 1}
+2025-07-29 01:09:24,577 - optimization_test_logging_20250729_010924 - INFO - Iter 0: loss=1.000000, lr=0.01
+2025-07-29 01:09:24,577 - optimization_test_logging_20250729_010924 - INFO - MILESTONE: 测试完成

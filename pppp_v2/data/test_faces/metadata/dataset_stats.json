@@ -1,0 +1,18 @@
+{
+  "dataset_name": "privacy_protection_test_faces",
+  "creation_date": "2025-07-29T01:11:38.913102",
+  "total_images": 30,
+  "image_size": [
+    512,
+    512
+  ],
+  "raw_images_collected": 30,
+  "processing_success_rate": 1.0,
+  "failed_processing": 0,
+  "data_sources": {
+    "synthetic": {
+      "description": "生成合成人脸图像",
+      "enabled": true
+    }
+  }
+}
