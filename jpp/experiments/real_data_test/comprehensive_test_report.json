@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "test_timestamp": "2025-07-31T04:25:18.243230",
+    "protection_level": "medium",
+    "device": "cuda",
+    "total_images_processed": 1,
+    "test_data_source": "data/test_faces/processed"
+  },
+  "protection_config": {
+    "lambda_id": 1.0,
+    "lambda_lpips": 0.6,
+    "lambda_self": 0.4,
+    "max_iterations": 50,
+    "learning_rate": 0.01
+  },
+  "evaluation_results": {
+    "face_recognition_eval": {},
+    "ppr_results": {},
+    "quality_results": [
+      "QualityEvaluationResult(image_pair_id='face_000', metrics=QualityMetrics(lpips=0.587981641292572, psnr=np.float64(14.34723765289522), ssim=np.float64(0.05636306970812155), mse=np.float64(2389.772699991862), mae=np.float64(41.44981384277344), structural_similarity=np.float64(0.05636306970812155), perceptual_distance=0.587981641292572, overall_score=np.float64(0.21261750402714505)), image_size=(256, 256), color_channels=3, metadata={'evaluation_timestamp': '2025-07-31T04:25:17.978092', 'evaluator_device': 'cuda', 'compute_lpips': True})"
+    ],
+    "summary": {
+      "total_images": 1,
+      "protection_effectiveness": {},
+      "quality_metrics": {
+        "mean_lpips": 0.587981641292572,
+        "mean_ssim": 0.05636306970812155
+      },
+      "overall_rating": "Poor"
+    }
+  },
+  "recommendations": [
+    "保护率偏低，建议增加λ_ID权重或增加迭代次数",
+    "感知质量下降较多，建议增加λ_LPIPS权重",
+    "整体效果较差，建议重新调整算法参数或保护策略"
+  ]
+}
